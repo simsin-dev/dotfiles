@@ -1,0 +1,9 @@
+default-timeout=5000
+ignore-timeout=0
+
+background-color=#3C3836FF
+text-color=#EBDBB2FF
+border-color=#665C54FF
+border-size=2
+font=JetBrainsMono Nerd Font Mono
+

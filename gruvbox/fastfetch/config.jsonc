@@ -1,0 +1,63 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/simsin/wallpapers/fastfetch.png",
+    "type": "kitty",
+    "height": 25,
+    "padding": {
+      "top": 3
+    }
+  },
+  "display": {
+        "separator": " - "
+    },
+  
+
+  "modules": [
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[90m─────────────────────SOFTWARE─────────────────────"
+    },
+    "os",
+    "host",
+    "kernel",
+    "break",
+    {"type":"shell","keyColor":"blue"},
+    {"type":"de","keyColor":"blue"},
+    {"type":"wm","keyColor":"blue"},
+    {"type":"terminal","keyColor":"blue"},
+    {"type":"packages","keyColor":"blue"},
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[90m─────────────────────HARDWARE────────────────────"
+    },
+    {"type":"cpu","keyColor":"red"},
+    {"type":"gpu","keyColor":"red"},
+    "break",
+    {"type":"memory","keyColor":"yellow"},
+    {"type":"swap","keyColor":"yellow"},
+    {"type":"disk","keyColor":"yellow"},
+    "break",
+    {"type":"display","keyColor":"blue"},
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[90m───────────────────────INFO──────────────────────"
+    },
+    {"type":"localip","keyColor":"magenta"},
+    {"type":"uptime","keyColor":"magenta"},
+    {"type":"datetime","keyColor":"magenta"},
+    {"type":"font","keyColor":"magenta"},
+    {"type":"terminalfont","keyColor":"magenta"},
+    {"type":"cursor","keyColor":"magenta"},
+    {"type":"locale","keyColor":"magenta"},
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[90m──────────────────────COLORS─────────────────────"
+    },
+    "colors"
+  ],
+}
