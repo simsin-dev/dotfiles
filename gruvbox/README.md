@@ -46,4 +46,4 @@ I used:
 [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) (99.9% of my neovim configuration) <br>
 [random wallpaper](https://gruvbox-wallpapers.pages.dev/) that turned into my fastfetch <br>
 My wallpapers where downloaded a long time ago so i cannot provide a propper source. <br>
-The rest are widely known projects I build my configuration on top of.
+The rest are widely known projects I built my configuration on top of.
