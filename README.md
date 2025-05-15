@@ -1,4 +1,4 @@
-# Simsins' dotfiles
+# Simsin's dotfiles
 ---
 This repository currently contains dotfiles for setups:
 #### [Gruvbox - dark](gruvbox/)
