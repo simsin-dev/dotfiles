@@ -995,3 +995,5 @@ vim.api.nvim_set_hl(0, "Normal", { guibg = nil, ctermbg = nil })
 -- vim: ts=2 sts=2 sw=2 et
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
+
+require("lspconfig").csharp_ls.setup({ root_dir = require("lspconfig.util").root_pattern("*.sln", "*.csproj") })
