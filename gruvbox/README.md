@@ -9,17 +9,9 @@ Requirements (for a 1:1 setup):
 - neovim
 - mako (notifications daemon)
 - spotify
-- firefox
 - discord + vencord
 - JetBrainsMono Nerd Font (main font)
 ---
-#### Special install instructions
-##### firefox:
-1. Install [textfox](https://github.com/adriankarlen/textfox).
-2. Install collor scheme given in the .xpi file.
-> [!WARNING]
-> If the file doesnt import properly you can change the color values manually using the [firefox color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) plugin.
-> The theme will not be published as it is not fully complete.
 
 ##### spotify:
 For spotify I used already existing resources:
@@ -41,7 +33,6 @@ spicetify apply
 All of the colors used in this rice where taken from [this](https://www.figma.com/community/file/840895380520234275/gruvbox-syntax-highlighting) palette on figma.
 I used:
 [Spicetify](https://spicetify.app/) and their [community themes](https://github.com/spicetify/spicetify-themes) <br>
-[Textfox](https://github.com/adriankarlen/textfox) <br>
 [Vencord](https://vencord.dev/) and the [system24](https://github.com/refact0r/system24) theme (I just changed the colors) <br>
 [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) (99.9% of my neovim configuration) <br>
 [random wallpaper](https://gruvbox-wallpapers.pages.dev/) that turned into my fastfetch <br>
