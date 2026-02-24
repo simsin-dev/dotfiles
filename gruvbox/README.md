@@ -5,6 +5,7 @@ Requirements (for a 1:1 setup):
 - hyprland (wayland)
 - kitty
 - waybar
+- rofi
 - fastfetch
 - neovim
 - mako (notifications daemon)
